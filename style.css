@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:  hsl(234, 29%, 20%);
+}
+.hero{
+    background:  hsl(234, 29%, 20%);
+    width: 100%;
+    height: 100%;
+    padding: 5%;
+}
+.content{
+    width: 50%;
+    background: white;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    gap: 29px;
+    padding: 1.5%;
+    border-radius: 30px;
+    margin:2% auto;
+   
+}
+.left{
+    display: flex;
+    height: 100%;
+    padding: 20px;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+h1{
+    font-size: 55px;
+    font-family: "Roboto";
+    color:  hsl(234, 29%, 20%);
+
+}
+#p{
+    font-size: 15px;
+    font-family: "Roboto";
+    color: hsl(234, 29%, 20%);
+
+}
+.li{
+display: flex;
+align-items: center;
+font-size: 15px;
+font-family: "Roboto";
+color:  hsl(234, 29%, 20%);
+}
+.li img{
+    width: 20px;
+    margin-right: 15px;
+}
+label{
+    font-size: 13px;
+    color: hsl(234, 29%, 20%);
+    font-weight: 500;
+}
+input {
+    width: 100%;
+    height: 55px;
+    padding: 10px;
+    margin-bottom: 23px;
+    border-radius: 8px;
+    font-size: 17px;
+}
+
+button{
+    width: 100%;
+    height: 55px;
+    padding: 10px;
+    background:  hsl(234, 29%, 20%);
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+#illustration{
+    height: 550px;
+}
+#millustration{
+    display: none;
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    color:  hsl(234, 29%, 20%);
+}
+.text p{
+    font-size: 16px;
+    font-weight: 500;
+}
+#Invalid{
+    display: none;
+}
+
+ .success{
+    width: 25%;
+    margin: auto;
+    padding: 2.5%;
+    color:  hsl(234, 29%, 20%);
+    background: white;
+    border-radius: 20px;
+    display: none;
+    margin-top: 7%;
+ }
+ .success img,.success h1 ,.success p,.success button{
+    margin-bottom: 20px;
+ }
+ #mail{
+    font-weight: 700;
+ }
+
+
+ @media only screen and (max-width: 600px) {
+    .hero{
+        padding: 0;
+        margin: 0;
+        background: white;
+        height: 100%;
+    }
+    .content {
+      width: 100%;
+      display: flex;
+
+      flex-direction: column-reverse;}
+    .content   h1{
+        font-size: 260%;
+      }
+    #illustration{
+        display: none;
+    }
+    #millustration{
+        display: block;
+        width: 105%;
+        margin-top: -30px;
+
+        
+    }
+    .success{
+        width: 100%;
+        padding: 5%;
+        display:flex;
+        flex-direction: column;
+        gap: 220px;
+        margin-top: 100px;
+        height: 100%;
+    }
+    .success   h1{
+        font-size: 260%;
+      }
+      .success div{
+        margin-bottom: 220px;
+      }
+  }
+  @media only screen and (min-width: 768px) {
+  
+  }
